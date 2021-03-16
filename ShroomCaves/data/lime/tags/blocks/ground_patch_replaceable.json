@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:stone",
+        "minecraft:mushroom_stem",
+        "minecraft:rooted_dirt",
+        "minecraft:light_gray_terracotta"
+    ]
+}

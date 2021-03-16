@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:overworld",
+    "generator": {
+      "biome_source": {
+        "type": "fixed",
+        "biome": "lime:lime_caves",
+        "seed": 0
+      },
+      "seed": 0,
+      "settings": "minecraft:overworld",
+      "type": "minecraft:noise"
+    }
+  }

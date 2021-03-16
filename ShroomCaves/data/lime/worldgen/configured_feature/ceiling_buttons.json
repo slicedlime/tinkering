@@ -1,0 +1,79 @@
+{
+    "config": {
+        "to_place": {
+            "entries": [
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "face": "ceiling",
+                            "powered": "false",
+                            "facing": "east"
+                        },
+                        "Name": "minecraft:crimson_button"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "face": "ceiling",
+                            "powered": "false",
+                            "facing": "north"
+                        },
+                        "Name": "minecraft:crimson_button"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "face": "ceiling",
+                            "powered": "false",
+                            "facing": "east"
+                        },
+                        "Name": "minecraft:spruce_button"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "face": "ceiling",
+                            "powered": "false",
+                            "facing": "north"
+                        },
+                        "Name": "minecraft:spruce_button"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "face": "ceiling",
+                            "powered": "false",
+                            "facing": "east"
+                        },
+                        "Name": "minecraft:dark_oak_button"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "face": "ceiling",
+                            "powered": "false",
+                            "facing": "north"
+                        },
+                        "Name": "minecraft:dark_oak_button"
+                    }
+                }
+            ],
+            "type": "minecraft:weighted_state_provider"
+        },
+        "place_on": [],
+        "place_in": [],
+        "place_under": []
+    },
+    "type": "minecraft:simple_block"
+}

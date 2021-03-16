@@ -1,0 +1,74 @@
+{
+    "config": {
+        "to_place": {
+            "entries": [
+                {
+                    "weight": 1,
+                    "data": {
+                        "Name": "minecraft:red_mushroom"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Name": "minecraft:brown_mushroom"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "waterlogged": "false"
+                        },
+                        "Name": "minecraft:dead_horn_coral"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "waterlogged": "false"
+                        },
+                        "Name": "minecraft:dead_tube_coral_fan"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "waterlogged": "false",
+                            "pickles": "1"
+                        },
+                        "Name": "minecraft:sea_pickle"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "down": "true",
+                            "east": "false",
+                            "north": "false",
+                            "south": "false",
+                            "up": "false",
+                            "waterlogged": "false",
+                            "west": "false"
+                        },
+                        "Name": "minecraft:glow_lichen"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Name": "minecraft:fern"
+                    }
+                }
+            ],
+            "type": "minecraft:weighted_state_provider"
+        },
+        "place_on": [],
+        "place_in": [],
+        "place_under": []
+    },
+    "type": "minecraft:simple_block"
+}

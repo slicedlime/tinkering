@@ -1,0 +1,100 @@
+{
+    "config": {
+        "body_provider": {
+            "entries": [
+                {
+                    "weight": 8,
+                    "data": {
+                        "Properties": {
+                            "facing": "down"
+                        },
+                        "Name": "minecraft:end_rod"
+                    }
+                },
+                {
+                    "weight": 2,
+                    "data": {
+                        "Properties": {
+                            "waterlogged": "false",
+                            "east": "none",
+                            "north": "none",
+                            "west": "none",
+                            "south": "none",
+                            "up": "true"
+                        },
+                        "Name": "minecraft:diorite_wall"
+                    }
+                }
+            ],
+            "type": "minecraft:weighted_state_provider"
+        },
+        "head_provider": {
+            "entries": [
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "waterlogged": "false",
+                            "type": "bottom"
+                        },
+                        "Name": "minecraft:prismarine_slab"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "down": "false",
+                            "up": "true",
+                            "north": "true",
+                            "east": "true",
+                            "south": "true",
+                            "west": "true"
+                        },
+                        "Name": "minecraft:red_mushroom_block"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "waterlogged": "false",
+                            "type": "bottom"
+                        },
+                        "Name": "minecraft:dark_prismarine_slab"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "waterlogged": "false",
+                            "type": "bottom"
+                        },
+                        "Name": "minecraft:polished_andesite_slab"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Properties": {
+                            "waterlogged": "false",
+                            "type": "bottom"
+                        },
+                        "Name": "minecraft:red_nether_brick_slab"
+                    }
+                }
+            ],
+            "type": "minecraft:weighted_state_provider"
+        },
+        "allow_water": true,
+        "height_distribution": [
+            {
+                "weight": 1,
+                "data": 2
+            }
+        ],
+        "direction": "up"
+    },
+    "type": "minecraft:growing_plant"
+}

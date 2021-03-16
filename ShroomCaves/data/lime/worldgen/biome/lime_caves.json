@@ -1,0 +1,61 @@
+{
+  "scale": 0.2,
+  "effects": {
+    "sky_color": 8103167,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "surface_builder": "minecraft:grass",
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_water",
+      "minecraft:lake_lava"
+    ],
+    [],
+    [
+      "minecraft:amethyst_geode",
+      "minecraft:monster_room"
+    ],
+    [],
+    [
+      "lime:light_ceiling_patches"
+    ],
+    [
+      "lime:blob_mushroom",
+      "lime:blob_calcite",
+      "lime:blob_rooted_dirt",
+      "lime:blob_light_gray_terracotta"
+    ],
+    [
+      "lime:dark_ceiling_patches"
+    ],
+    [
+      "lime:shrooms",
+      "lime:patches"
+    ]
+  ],
+  "starts": [],
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": false,
+  "precipitation": "rain",
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "category": "plains",
+  "depth": 0.1
+}

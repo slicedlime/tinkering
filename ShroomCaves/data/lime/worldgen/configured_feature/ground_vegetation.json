@@ -1,0 +1,20 @@
+{
+    "config": {
+      "features": [
+        {
+          "feature": "lime:shroom",
+          "chance": 0.05
+        },
+        {
+          "feature": "minecraft:huge_brown_mushroom",
+          "chance": 0.01
+        },
+        {
+          "feature": "minecraft:huge_red_mushroom",
+          "chance": 0.01
+        }
+      ],
+      "default": "lime:simple_vegetation"
+    },
+    "type": "minecraft:random_selector"
+  }
